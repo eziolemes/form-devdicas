@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1d1d2e;
+}
+
+.area-login {
+    margin-top: 2rem;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+}
+
+.area-login form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.area-login h1 {
+    color: #3fffa3;
+    padding-bottom: 1rem;
+}
+
+.area-login input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    border: 1px solid #8a8a8a;
+    padding: 10px;
+}
+
+.area-login input:hover {
+    border-bottom: 1px solid darkgray;
+}
+
+.area-login button {
+    height: 40px;
+    font-size: 1.2rem;
+    background-color: #ff3f4b;
+    cursor: pointer;
+    border: none;
+}
+
+input, button {
+    font: 400 1rem sans-serif;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #FFF;
+}
